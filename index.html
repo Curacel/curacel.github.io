@@ -48,7 +48,7 @@
 
 
         <!-- DOWNLOAD BUTTON - PLACE LINK TO YOUR APP HERE -->
-        <a href="#features"><button type="button" class="btn btn-success">Learn More</button></a>
+        <!-- <a href="#features"><button type="button" class="btn btn-success">Learn More</button></a> -->
 
       </div>
 
@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="row load-more anim-fade-down">
-          <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#joinUs">Sign Up Now</button>
+          <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#joinUs">Request a Demo</button>
         </div>
       </div>
     </section>
@@ -208,7 +208,7 @@
           <div class="modal-header">
             <!-- CLOSE MODAL BUTTON -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h5 class="modal-title" id="myModalLabel">Be the first to know when we launch</h5>
+            <h5 class="modal-title" id="myModalLabel">Request a Demo</h5>
             <h6></h6>
 
           </div>
@@ -225,7 +225,7 @@
                   <!-- ICON -->
                   <div class="input-group-addon"><span class="icon_profile">*</span></div>
                   <!-- INPUT -->
-                  <input type="text" class="form-control signup-name" id="signup-name" placeholder="Name" name="name" autocomplete="off" data-minlength="3" required>
+                  <input type="text" class="form-control signup-name" id="signup-name" placeholder="Name" name="name" data-minlength="3" required>
                 </div>
                 
                 <!-- <div class="help-block with-errors"></div> -->
@@ -237,9 +237,20 @@
                  <!-- ICON -->
                  <div class="input-group-addon"><span class="elegant icon_mail_alt"></span></div>
                  <!-- INPUT -->
-                 <input type="email" class="form-control" id="signup-email" name="email" placeholder="E-mail adress" autocomplete="off" required>
+                 <input type="email" class="form-control" id="signup-email" name="email" placeholder="E-mail address" required>
                </div>
              </div>
+
+             <div class="form-group">
+                <!-- E-MAIL INPUT -->
+                <div class="input-group col-xs-12">
+                 <!-- ICON -->
+                 <div class="input-group-addon"><span class="elegant icon_phone"></span></div>
+                 <!-- INPUT -->
+                 <input type="text" class="form-control" id="signup-phone" name="phone" placeholder="Phone Number" autocomplete="off" required>
+               </div>
+             </div>
+
             <div class="input-group col-xs-12">
               <!-- SUBMIT BUTTON -->
               <button type="submit" class="btn btn-success col-xs-12" id="signup-button">
@@ -275,12 +286,15 @@
         $("#signup-button").on('click', function(){
           var email = $('#signup-email').val();
           var name = $('#signup-name').val(); 
-          if(name !== "" && email !== ""){
+          var phone = $('#signup-phone').val(); 
+          if(name !== "" && email !== "" && phone !== ""){
             signup(email, name);
           }else if(name == ""){
             signupError.text('Please enter your name');
           }else if(email == ""){
             signupError.text('Please enter your email');
+          }else if(phone == ""){
+            signupError.text('Please enter your phone number');
           }else{
             signupError.text('Please enter your name and email address');
           }
@@ -297,16 +311,17 @@
               $('#signup-success').text('Thanks for signing up!');
               // hide the form
               // signupForm.style.display = 'none';
-              $('#joinUs').slideUp('slow').delay(1000);
+              $('#joinUs').slideUp('slow').delay(2000);
             }
           };
           
-          function signup(email,name) {
+          function signup(email,name, phone) {
             // Store emails to firebase
             var myFirebaseRef = new Firebase("https://flickering-inferno-3119.firebaseio.com/");
             myFirebaseRef.push({
               name: name,
               email: email,
+              phone: phone,
             }, onSignupComplete); 
           }
       });
