@@ -288,7 +288,7 @@
           var name = $('#signup-name').val(); 
           var phone = $('#signup-phone').val(); 
           if(name !== "" && email !== "" && phone !== ""){
-            signup(email, name);
+            signup(email, name, phone);
           }else if(name == ""){
             signupError.text('Please enter your name');
           }else if(email == ""){
@@ -321,7 +321,7 @@
             myFirebaseRef.push({
               name: name,
               email: email,
-              phone: phone,
+              phone: phone
             }, onSignupComplete); 
           }
       });
