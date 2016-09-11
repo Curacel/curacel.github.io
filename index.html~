@@ -94,16 +94,13 @@
 <script type="text/javascript" src="sites/default/themes/curacel_theme/js/build/kareo-dialog788b.js?o8gpdl"></script>
 <script type="text/javascript" src="sites/default/themes/curacel_theme/js/build/video-modal-single788b.js?o8gpdl"></script>
 <script type="text/javascript" src="sites/all/modules/google_analytics/googleanalytics788b.js?o8gpdl"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-84002538-1', 'auto');
-  ga('send', 'pageview');
-
-</script
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","http://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31941-8", {"cookieDomain":".kareo.com"});ga("require", "linkid", "linkid.html");ga("require", "displayfeatures");// Optimizely Universal Analytics Integration
+window.optimizely = window.optimizely || [];
+window.optimizely.push("activateUniversalAnalytics");ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+//--><!]]>
+</script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 var _kmq = _kmq || [];var _kmk = _kmk || '971d80ab6654d40d527875f13ae0afacce4e3d03';function _kms(u){setTimeout(function(){var d = document, f = d.getElementsByTagName('script')[0],s = d.createElement('script');s.type = 'text/javascript'; s.async = true; s.src = u;f.parentNode.insertBefore(s, f);}, 1); }_kms('http://i.kissmetrics.com/i.js');_kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
