@@ -447,16 +447,16 @@ p {
 }
 
 a {
-  color: #ff8219;
+  color: #58b1d0;
   text-decoration: none;
   transition: color 200ms ease-out;
   font-family: "Source Sans Pro", sans-serif;
 }
 a:hover {
-  color: #ff9e4c;
+  color: #58b1d0;
 }
 a:active {
-  color: #ff8219;
+  color: #58b1d0;
 }
 
 hr {
