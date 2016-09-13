@@ -116,6 +116,15 @@
     <script type="text/javascript" src="sites/default/themes/curacel_theme/vendors/js/popover.min788b.js?o8gpdl"></script>
     <script type="text/javascript" src="sites/default/themes/curacel_theme/js/build/viewport788b.js?o8gpdl"></script>
     <style type="text/css">
+
+    .home-hero{
+      height: 93vh;
+    }
+
+    .lockup-cont .main-title {
+      margin-top: 2vh;
+    }
+
     .cscol-7{
     float: right; width:  70%;height: 100vh; position: relative;z-index: 5; padding:25px;margin-top: 20px;
     }
@@ -137,15 +146,32 @@
     float: right; width:  20%;height: 100vh; position: relative;z-index: 5; padding:25px;margin-top: 20px;
     }
     .fact-cont{
-    padding: 5px 0 5px!important;
+    padding: 10px 0 5px!important;
     }
 
+
     @media screen and (max-width: 768px){
-section.home-video {
+
+      }
+
+
+      @media screen and (max-width: 480px){
+      section.home-hero {
+          height: 70vh;
+        }
+
+        section.home-video {
     height: 90vh;
     padding: 25px 25px;
 }
-}
+
+ .cscol-2, .cscol-3, .cscol-4, .cscol-5, .cscol-6, .cscol-7{
+    float: left; width:  90%;height: 50vh; position: relative;z-index: 5; padding:25px;margin-top: 20px;
+    }
+
+    #opCont {
+    height: 93vh;
+      }
     </style>
   </head>
   <body class="html front not-logged-in no-sidebars page-node page-node- page-node-47 node-type-page" >
@@ -338,11 +364,10 @@ section.home-video {
                     <div class="nav-menu">
                       <ul id="primary" class="links clearfix main-menu"><li class="menu-1891 first"><a href="ehr.html">Clinical</a></li>
                       <li class="menu-1901"><a href="practice-management.html">Billing</a></li>
-                      <li class="menu-10501"><a href="practice-marketing.html">Marketing</a></li>
+                      <li class="menu-10501"><a href="practice-marketing.html">Engagment</a></li>
                       <li class="menu-1896"><a href="marketplace.html">Solutions</a></li>
-                      <li class="menu-1886"><a href="specialty.html">Products</a></li>
                       <li class="menu-1906"><a href="sitemap.html" title="">More</a></li>
-                      <li class="menu-2064 last"><a href="plans-and-pricing.html">Plans &amp; Pricing</a></li>
+                      <li class="menu-2064 last"><a href="plans-and-pricing.html">VIEW DEMO</a></li>
                     </ul>
                   </div>
                 </div>
@@ -350,96 +375,63 @@ section.home-video {
             </section>
             <!--!!!!!!!!!!! ~ END FOLLOW NAV ~ !!!!!!!!!!!!-->
             <!--!!!!!!!!!!! ~ MOBILE NAV ~ !!!!!!!!!!!!-->
-            <section id="mobile_nav_toolbar" class="display_mobile mobile-navigation-toolbar">
+            <section id="mobile_nav_toolbar" class="display_mobile mobile-navigation-toolbar" style="height:9vh">
               <div class="container">
                 <a href="index.html" title="home" rel="home" class="mobile-nav-logo">
-                  <img src="curacel-logo.png" width="200px;"/>
+                  <img src="curacel-logo.png" width="250px;"/>
                 </a>
                 <a href="javascript:void(0);" class="mobile-menu-activator">
                   <i class="icon-menu mobile-menu-activator"></i>
                 </a>
               </div>
             </section>
-            <!--!!!!!!!!!!! ~ MOBILE CONTAINER NAV ~ !!!!!!!!!!!!-->
-            <section id="mobile_container" class="display_mobile mobile-navigation-container">
-              <span class="close-icon mobile-navigation-close-trigger">
-              </span>
-              <div class="menu-container">
-                <!--  <a href="plans-and-pricing.html" class="btn-sm-orng">Plans &amp; Pricing</a> -->
-                <div id="block-menu-menu-mobile-menu" class="block block-menu clearfix">
-                  <div class="block-inner">
-                    <div class="content" >
-                      <ul class="menu"><li class="first leaf"><a href="ehr.html" title="">Clinical</a></li>
-                      <li class="leaf"><a href="practice-management.html" title="">Billing</a></li>
-                      <li class="leaf"><a href="medical-billing.html" title="">Managed Billing</a></li>
-                      <li class="leaf"><a href="practice-marketing.html" title="">Marketing</a></li>
-                      <li class="leaf"><a href="kareo-billco-edition.html" title="">BillCo Edition</a></li>
-                      <li class="last expanded"><a href="http://fake.link/" title="">More</a><ul class="menu"><li class="first expanded"><a href="http://fake.link/" title="">Modules</a><ul class="menu"><li class="first leaf"><a href="ehr.html" title="">Clinical</a></li>
-                      <li class="leaf"><a href="practice-management.html" title="">Billing</a></li>
-                      <li class="leaf"><a href="medical-billing.html" title="">Managed Billing</a></li>
-                      <li class="leaf"><a href="practice-marketing.html" title="">Marketing</a></li>
-                      <li class="last leaf"><a href="kareo-billco-edition.html" title="">BillCo Edition</a></li>
-                    </ul></li>
-                    <li class="expanded"><a href="http://fake.link/" title="">Solutions</a><ul class="menu"><li class="first leaf"><a href="doctors.html" title="">For Doctors</a></li>
-                    <li class="leaf"><a href="practice-managers.html" title="">For Practice Managers</a></li>
-                    <li class="leaf"><a href="medical-billers.html" title="">For Billers</a></li>
-                    <li class="leaf"><a href="kareo-billco-edition.html" title="">For Billing Companies</a></li>
-                    <li class="leaf"><a href="new-practice.html" title="">For New Practices</a></li>
-                    <li class="last leaf"><a href="specialty.html" title="">For Your Specialty</a></li>
-                  </ul></li>
-                  <li class="expanded"><a href="http://fake.link/" title="">Products</a><ul class="menu"><li class="first leaf"><a href="ehr.html" title="">EHR</a></li>
-                  <li class="leaf"><a href="practice-management.html" title="">Practice Management</a></li>
-                  <li class="leaf"><a href="medical-billing.html" title="">Medical Billing</a></li>
-                  <li class="leaf"><a href="practice-marketing.html" title="">Marketing</a></li>
-                  <li class="leaf"><a href="kareo-billco-edition.html" title="">BillCo Edition</a></li>
-                  <li class="leaf"><a href="mobile.html" title="">Mobile Apps</a></li>
-                  <li class="last leaf"><a href="marketplace.html" title="">Marketplace</a></li>
-                </ul></li>
-                <li class="expanded"><a href="http://fake.link/" title="">Support</a><ul class="menu"><li class="first leaf"><a href="http://helpresources.kareo.com/help/" title="">Help Center</a></li>
-                <li class="leaf"><a href="http://helpresources.kareo.com/help/contact" title="">Contact Support</a></li>
-                <li class="leaf"><a href="pricing-pro-services.html" title="">Professional Services</a></li>
-                <li class="last leaf"><a href="privacy-policy-pre-5-9.html" title="">Terms</a></li>
-              </ul></li>
-              <li class="expanded"><a href="http://fake.link/" title="">Learn</a><ul class="menu"><li class="first leaf"><a href="http://resources.kareo.com/resources/" title="">Resources</a></li>
-              <li class="leaf"><a href="gettingpaid/index.html" title="">Getting Paid Blog</a></li>
-              <li class="leaf"><a href="blog/index.html" title="">Building Kareo Blog</a></li>
-              <li class="leaf"><a href="meaningful-use.html" title="">Meaningful Use Expert</a></li>
-              <li class="last leaf"><a href="icd-10.html" title="">ICD-10 Transition</a></li>
-            </ul></li>
-            <li class="last expanded"><a href="http://fake.link/" title="">About</a><ul class="menu"><li class="first leaf"><a href="why-kareo.html" title="">Why Kareo</a></li>
-            <li class="leaf"><a href="contact.html" title="">Contact Us</a></li>
-            <li class="leaf"><a href="company.html" title="">Company</a></li>
-            <li class="leaf"><a href="team.html" title="">Team</a></li>
-            <li class="leaf"><a href="investors.html" title="">Investors</a></li>
-            <li class="leaf"><a href="careers.html" title="">Careers</a></li>
-            <li class="leaf"><a href="our-story.html" title="">Our Story</a></li>
-            <li class="leaf"><a href="awards-accolades.html" title="">Awards &amp; Accoldares</a></li>
-            <li class="leaf"><a href="newsroom.html" title="">Newsroom</a></li>
-            <li class="last leaf"><a href="referral.html" title="">Referral Program</a></li>
-          </ul></li>
-        </ul></li>
-      </ul>    </div>
-    </div>
-    </div> <!-- /block-inner /block -->            <ul class="mobile-menu-subnav">
-    <li class="search-function">
-      <a href="search/gss/Kareo.html" class="search submenu-link" data-secondarySearch="true">Search</a>
-    </li>
-    <li>
-      <a href="https://ehr.kareo.com/login-ui/" class="ehr-login submenu-link" data-login="true">Practice Login</a>
-    </li>
-    <li>
-      <a href="https://portal.kareo.com/app/new/login" class="ehr-login submenu-link" data-login="true">Patient Portal</a>
-    </li>
-    <li>
-      <a href="http://helpresources.kareo.com/help/" class="help submenu-link">Help</a>
-    </li>
-    <li class="call-link">
-      <a class="submenu-link" href="tel:+18887752736"><i class="icon-pricing-contact"></i> &nbsp;1-888-775-2736</a>
-    </li>
-  </ul>
+
+<!--!!!!!!!!!!! ~ MOBILE CONTAINER NAV ~ !!!!!!!!!!!!-->
+   <section id="mobile_container" class="display_mobile mobile-navigation-container">
+  <span class="close-icon mobile-navigation-close-trigger">
+    <svg version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 31.028 31.027" enable-background="new 0 0 31.028 31.027" xml:space="preserve">
+      <path fill-rule="evenodd" clip-rule="evenodd" fill="#3D4345" d="M20.147,15.507L30.549,5.105c0.639-0.639,0.639-1.675,0-2.313
+        l-2.313-2.313c-0.639-0.638-1.674-0.638-2.313,0L15.521,10.88L5.144,0.503c-0.637-0.639-1.67-0.639-2.308,0L0.529,2.81
+        c-0.638,0.638-0.637,1.671,0,2.309l10.377,10.377L0.479,25.922c-0.639,0.639-0.639,1.676,0,2.314l2.313,2.312
+        c0.639,0.638,1.674,0.638,2.313,0l10.427-10.427L25.91,30.499c0.637,0.638,1.67,0.638,2.308,0l2.307-2.309
+        c0.637-0.636,0.637-1.669,0-2.307L20.147,15.507z"></path>
+      </svg>
+    </span>
+    <div class="menu-container">
+      <a href="http://curacel.co" class="btn-sm-bgblue" style="margin-left: 19px">VIEW DEMO</a>
+   <div id="block-menu-menu-mobile-menu" class="block block-menu clearfix">
+  <div class="block-inner">
+
+  <div class="content">
+<ul class="menu"><li class="first leaf"><a href="/ehr" title="">Clinical</a></li>
+<li class="leaf"><a href="/practice-management" title="">Billing</a></li>
+<li class="leaf"><a href="/practice-marketing" title="">Engagement</a></li>
+<li class="leaf"><a href="http://curacel.co/contact" title="">Contact Support</a></li>
+<li class="leaf"><a href="/pricing-pro-services" title="">Professional Services</a></li>
+<li class="leaf"><a href="/privacy-policy-pre-5-9" title="">Terms</a></li>
+<li class="leaf"><a href="/university" title="" target="_self" class="expand-trigger">Learn</a>
+<li class="first leaf"><a href="/blog" title="">Blog</a></li>
+<li class="leaf"><a href="/contact" title="">Contact Us</a></li>
+<li class="leaf"><a href="/company" title="">Company</a></li>
+<li class="last leaf"><a href="/referral" title="">Referral Program</a></li>
+<li><a href="https://curacel.co/practice-login" class="ehr-login submenu-link" data-login="true">Practice Login</a>
+        </li>
+        <li> <a href="https://portal.curacel.co" class="ehr-login submenu-link" data-login="true">Patient Portal</a>
+        </li>
+        <li><a href="http://www.kareo.com/help" class="help submenu-link">Help</a>
+        </li>
+        <li class="call-link"><a class="submenu-link" href="tel:+2348069008601"><i class="icon-pricing-contact"></i> &nbsp;+234 806 900 8601</a>
+        </li>
+</ul>    
 </div>
-</section>
-<!--!!!!!!!!!!! ~ END MOBILE CONTAINER NAV ~ !!!!!!!!!!!!-->
+
+  </div>
+</div> <!-- /block-inner /block -->      
+ <ul class="mobile-menu-subnav">
+        <
+      </ul>
+    </div>
+  </section>
 <!--!!!!!!!!!!! ~ END MOBILE NAV ~ !!!!!!!!!!!!-->
 <!--!!!!!!!!!!! ~ MAIN ~ !!!!!!!!!!!!-->
 <div id="main">
@@ -456,7 +448,7 @@ section.home-video {
               <article id="node-47" class="node node-page node--page--full">
                 <div class="content">
                   <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!-- Hero -->
-                  <section class="home-hero" style="height: 93vh;">
+                  <section class="home-hero" style="height:88vh">
                     <div class="mob-overlay"></div>
                     <div class="lockup-cont" style="text-align: center;">
                       <h1 class="main-title"> Simple system to manage your medical practice</h1>
@@ -475,7 +467,7 @@ section.home-video {
                     <div class="lockup-cont" style="height:99vh;">
                       <h1 class="main-title" style="color:#fff;"">Curacel Health</h1>
                       <h3 class="sub-txt" style="color:#fff;">A simple system for clinics to manage patient records, manage billing and engage with patients.  </h3>
-                      <img src="sites/default/themes/curacel_theme/images/optimized/home/curacelhealth-ehr-software.png">
+                      <img src="sites/default/themes/curacel_theme/images/optimized/home/curacelhealth-ehr-software.png" style="margin-top: 8vh;">
                     </div>
                   </section>
                   <!-- .home-video -->
