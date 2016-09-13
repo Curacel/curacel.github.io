@@ -332,10 +332,10 @@
         });
         var menuKMB = {
             width: 390,
-            height: 252,
+            height: 300,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuKMB"><a href="/practice-management/" class="subBilling"><img src="http://curacel.co/img/convergence/billing.png" width="48" />Billing<span>Learn how Curacel-Health Billing helps you easily manage your patients and finances</span></a></div><div><img src="sites/default/themes/curacel_theme/images/optimized/home/demo3.png" alt=""></div>',
+            content: '<div class="submenuKMB"><a href="/practice-management/" class="subBilling"><img src="http://curacel.co/img/convergence/billing.png" width="48" />Billing<span>Learn how Curacel-Health Billing helps you easily manage your patients and finances</span></a></div><div><img width="95%"  src="http://curacel.co/img/convergence/billingd.jpg" alt=""></div>',
             delay: 75,
             animation: "pop",
             padding: !1
@@ -362,10 +362,10 @@
         }
           , menuK3 = {
             width: 390,
-            height: 240,
+            height: 300,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuKMB oneItem"><a href="/ehr/" class="subBilling"><img src="http://curacel.co/img/convergence/clinical.png" width="48" />Clinical<span>Learn how Curacel-Health Clinical delivers the EHR you always wanted</span></a><div><img src="sites/default/themes/curacel_theme/images/optimized/home/demo3.png" alt=""></div></div>',
+            content: '<div class="submenuKMB oneItem"><a href="/ehr/" class="subBilling"><img src="http://curacel.co/img/convergence/clinical.png" width="48" />Clinical<span>Learn how Curacel-Health Clinical delivers the EHR you always wanted</span></a><div><img width="95%" src="http://curacel.co/img/convergence/clinicald.jpg" alt=""></div></div>',
             delay: 75,
             animation: "pop",
             padding: !1
