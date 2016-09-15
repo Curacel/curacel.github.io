@@ -259,4 +259,8 @@ body.demo p > strong { color: #63AFE0; padding: 2px 6px; background: rgba(26, 18
 			float:left;width:100%;
 		}
 
+		.ms{
+			display: none;
+		}
+
       }
