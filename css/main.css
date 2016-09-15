@@ -126,7 +126,7 @@ td, th { padding: 0; }
 
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: Lato, Helvetica, Arial, sans-serif; background-color: #2f4358; height: 100%; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; font-weight: 300; color: #fff; }
+body { font-family: Lato, Helvetica, Arial, sans-serif; background-color: #2f4358; height: 100%; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 1.9em; line-height: 1.5; font-weight: 300; color: #fff; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 300; }
 
@@ -202,13 +202,13 @@ body.demo p > strong { color: #63AFE0; padding: 2px 6px; background: rgba(26, 18
 .home-hero .screenshot-img { display: block; border-radius: 5px; margin: 0 auto -25px; max-width: 90%; box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.5); }
 
 .product-summary { padding: 60px 0; text-align: center; background: #63AFE0; }
-.product-summary .summary-heading { max-width: 640px; margin: 0 auto 65px; font-size: 1.625rem; line-height: 2rem; }
-@media (max-width: 630px) { .product-summary .summary-heading { font-size: 1.4rem; line-height: 1.6rem; } }
+.product-summary .summary-heading { max-width: 640px; margin: 0 auto 65px; font-size: 1.9em; line-height: 1.2em; }
+@media (max-width: 630px) { .product-summary .summary-heading { font-size: 1.6em; line-height: 1em; } }
 .product-summary .why-hospitalrun blockquote { margin: 0; }
 .product-summary .why-hospitalrun h2 { font-size: 1.625rem; line-height: 2rem; max-width: 840px; margin: 56px auto 40px; }
-@media (max-width: 630px) { .product-summary .why-hospitalrun h2 { font-size: 1.4rem; line-height: 1.6rem; } }
+@media (max-width: 630px) { .product-summary .why-hospitalrun h2 { font-size: 1.6em; line-height: 1em; } }
 .product-summary .read-more { font-size: 1.625rem; margin-bottom: 0; }
-@media (max-width: 630px) { .product-summary .read-more { font-size: 1.4rem; line-height: 1.6rem; } }
+@media (max-width: 630px) { .product-summary .read-more { font-size: 1.4rem; line-height: 1.6em; } }
 .product-summary .read-more > a { border-bottom: 1px solid; }
 .product-summary .read-more > a:hover { text-decoration: none; }
 
@@ -240,3 +240,23 @@ body.demo p > strong { color: #63AFE0; padding: 2px 6px; background: rgba(26, 18
 @media (max-width: 630px) { .cta.secondary { margin-left: auto; } }
 .cta:visited { color: white; opacity: .8; }
 @media (max-width: 630px) { .cta { display: block; margin: 0 auto 20px; } }
+
+
+.dm{
+	display:block; height:90vh;
+      }
+
+.dm-left,.dm-mid,.dm-right{
+	float:left;width:50%;
+}
+
+@media screen and (max-width: 630px){
+	.dm{
+		display:block; height:90vh;
+		}
+
+	.dm-left,.dm-mid,.dm-right{
+			float:left;width:100%;
+		}
+
+      }
