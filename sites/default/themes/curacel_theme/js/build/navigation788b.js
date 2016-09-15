@@ -335,7 +335,7 @@
             height: 150,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuKMB"><a href="/practice-management/" class="subBilling"><img src="http://curacel.co/img/convergence/billing.png" width="48" />Billing<span>Learn how Curacel-Health Billing helps you easily manage your patients and finances</span></a></div><div>',
+            content: '<div class="submenuKMB"><a href="#" class="subBilling"><img src="http://curacel.co/img/convergence/billing.png" width="48" />Billing<span>Learn how Curacel-Health Billing helps you easily manage your patients and finances</span></a></div><div>',
             delay: 75,
             animation: "pop",
             padding: !1
@@ -345,7 +345,7 @@
             height: 256,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuK"><a href="/ehr/">EHR</a><a href="/practice-marketing/">Marketing</a><a href="/practice-management/">Practice Management</a><a href="/medical-billing/">Medical Billing</a><a href="/mobile/">Mobile Apps</a><a href="/marketplace/">Marketplace</a></div>',
+            content: '<div class="submenuK"><a href="#">EHR</a><a href="/practice-marketing/">Marketing</a><a href="#">Practice Management</a><a href="#">Medical Billing</a><a href="#">Mobile Apps</a><a href="#">Marketplace</a></div>',
             delay: 75,
             animation: "pop",
             padding: !1
@@ -355,7 +355,7 @@
             height: 230,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuK"><a href="/doctors/">For Doctors</a><a href="/administrators/">For Administrators</a><a href="/hmo/">For HMOs</a><a href="/specialty/">For Your Specialty</a><a href="portal.curacel.co/">For Patients</a></div>',
+            content: '<div class="submenuK"><a href="#">For Doctors</a><a href="#">For Administrators</a><a href="#">For HMOs</a><a href="#">For Your Specialty</a><a href="portal.curacel.co/">For Patients</a></div>',
             delay: 75,
             animation: "pop",
             padding: !1
@@ -365,7 +365,7 @@
             height: 150,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuKMB oneItem"><a href="/ehr/" class="subBilling"><img src="http://curacel.co/img/convergence/clinical.png" width="48" />Clinical<span>Learn how Curacel-Health Clinical delivers the EHR you always wanted</span></a><div></div></div>',
+            content: '<div class="submenuKMB oneItem"><a href="#" class="subBilling"><img src="http://curacel.co/img/convergence/clinical.png" width="48" />Clinical<span>Learn how Curacel-Health Clinical delivers the EHR you always wanted</span></a><div></div></div>',
             delay: 75,
             animation: "pop",
             padding: !1
@@ -375,7 +375,7 @@
             height: 150,
             placement: "bottom",
             trigger: "hover",
-            content: '<div class="submenuKMB oneItem"><a href="/practice-marketing/" class="subBilling"><img src="http://curacel.co/img/convergence/marketing.png" width="48" />Marketing<span>Learn how to build your online brand and connect with patients</span></a></div>',
+            content: '<div class="submenuKMB oneItem"><a href="#" class="subBilling"><img src="http://curacel.co/img/convergence/marketing.png" width="48" />Marketing<span>Learn how to build your online brand and connect with patients</span></a></div>',
             delay: 75,
             animation: "pop",
             padding: !1
