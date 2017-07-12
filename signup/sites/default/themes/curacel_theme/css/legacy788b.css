@@ -4298,7 +4298,7 @@ a#closeTerms:hover {
 #inquiry, #terms {
   background: none repeat scroll 0 0 #FFF;
     /*
-	border: 1px solid #7B769E;
+  border: 1px solid #7B769E;
     left: 50%;
     margin-left: -225px;
     margin-right: auto;
@@ -11386,7 +11386,7 @@ section.home-hero {
 }
 @media screen and (max-width: 1077px) {
   section.home-hero {
-    background: url("../images/optimized/home/home-hero.jpg") no-repeat center center;
+    background: url("") no-repeat center center;
     background-size: cover;
     height: 540px;
      background-color: #63afe0;
@@ -11394,7 +11394,7 @@ section.home-hero {
 }
 @media screen and (max-width: 768px) {
   section.home-hero {
-    background: url("../images/optimized/home/home-hero-3.jpg") no-repeat center center;
+    background: url("") no-repeat center center;
     background-size: cover;
     height: 480px;
     padding-top: 0;
@@ -11403,7 +11403,7 @@ section.home-hero {
 }
 @media screen and (max-width: 480px) {
   section.home-hero {
-    background: url("../images/optimized/home/home-hero-3.jpg") no-repeat -120px 0px;
+    background: url("") no-repeat -120px 0px;
     padding-top: 0;
      background-color: #63afe0;
   }
