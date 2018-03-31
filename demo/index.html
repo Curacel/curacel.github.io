@@ -77,35 +77,33 @@
                                 <h3 class="m-login__title">Request for a demo</h3>
 
                                                             </div>
+                            <div class="dv-notify-success" style="color: green">Successful! Thanks</div>
+                            <div class="dv-notify-failed" style="color: red">Failed! Try again Later</div>
+
 
                             <form class="m-login__form m-form dv-add-oneto:contact:demo" action="">
+                                <label for="name">Name:</label>
                                 <div class="form-group m-form__group">
-                                    <input class="form-control m-input" type="text" placeholder="Name" name="email" autocomplete="off">
+                                    <input class="form-control m-input" type="text" placeholder="" name="name" autocomplete="off">
                                 </div> 
                                 <div class="form-group m-form__group">
-                                    <input class="form-control m-input" type="text" placeholder="Phone" name="number" autocomplete="off">
+                                    <label for="phone">Phone Number:</label>
+                                    <input class="form-control m-input" type="text" placeholder="" name="phone" autocomplete="off">
                                 </div>
-                                    <div class="form-grpup m-form__group">
 
-                                        <div class="m-form__control">
-                                            <div class="btn-group bootstrap-select form-control m-bootstrap-select m-bootstrap-select--solid show">
-                                                <button type="button" class="btn dropdown-toggle bs-placeholder btn-default" data-toggle="dropdown" role="button" data-id="m_form_status" title="All" aria-expanded="true"><span class="filter-option pull-left">Business Type</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
-                                                </button>
-                                                <div class="dropdown-menu " role="combobox" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 34px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                    <ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
-                                                        <li data-original-index="0" class="selected"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span class="text">Health Provider</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
-                                                        <li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Health Insurance</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                    
-                                    </div>
-                                    <div class="d-md-none m--margin-bottom-10"></div>
-                                </div>                                
+
+                                <div class="form-group m-form__group">
+                                        <label for="businesstype">Select Business Type:</label>
+                                        <select name="businesstype" class="form-control m-input " id="businesstype" style="padding: 0;">
+                                            <option ></option>
+                                            <option value="HMO">Health Insurance</option>
+                                            <option value="Provider">Health Provider</option>
+                                        </select>
+                                    </div>                               
 
 
                                 <div class="m-login__form-action">
-                                    <button id="m_login_signin_submit" class="btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air">Request</button>
+                                    <button id="m_login_signin_submit" class="btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air" type="submit">Request</button>
                                 </div>
 
 
